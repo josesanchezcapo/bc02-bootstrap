@@ -4,6 +4,8 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+
+    <!-- Setting The Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -11,12 +13,16 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- Overwrite bootstrap elements with my own css-->
-    <link rel="stylesheet" type="text/stylesheet" href="./Assets/stylesheet/stylesheet.css">
+    <link rel="stylesheet" href="./Assets/stylesheet/stylesheet.css">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Favicon -->
-
     <link rel="icon" href="https://icons.iconarchive.com/icons/google/noto-emoji-smileys/512/10101-alien-icon.png"
         type="image/png" sizes="16x16">
+
+
 
     <title>JSC Site</Sanchez-Capo>
     </title>
@@ -24,49 +30,66 @@
 </head>
 
 <body>
-    
-    <!-- Main Navbar-->
 
+    <!-- Main Navbar-->
     <header>
-        <nav id="main-nav" class="navbar navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">
-                <h1>Jose Sanchez-Capo</h1>
-            </a>
-            <section class="nav-aligment">
-                <a class="navbar-brand" href="#">Home</a>
-                <a class="navbar-brand" href="./portfolio.html">My Porfolio</a>
-                <a class="navbar-brand" href="./contact.html">Contact Me!</a>
-            </section>
+        <nav class="main-nav">
+            <a class="nav-name" href="#"> Jose Sanchez-Capo </a>
+                <section class="nav-aligment">
+                    <a class="navbar-brand" href="#">Home</a>
+                    <a class="navbar-brand" href="./portfolio.html">My Porfolio</a>
+                    <a class="navbar-brand" href="./contact.html">Contact Me</a>
+                </section>
         </nav>
     </header>
 
     <!-- Main Container -->
     <div class="container">
-                <div class="card border-primary mb-3" style="max-width: 940px; margin-top: 15%;">
-                    <div class="card-header">About Me</div>
-                    <div class="card-body">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="./Assets/Images/me_yall.JPG" class="card-img" alt="..." style="border-radius: 50%;">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">My Name is Jose...</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi saepe nemo optio laborum animi beatae dicta asperiores aliquam libero tempora. Quam recusandae unde rem 
-                                        expedita animi vel nam ipsa? Facere consequatur veniam ratione molestiae, 
-                                        eaque voluptas molestias praesentium sapiente nemo.</p>
-                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quos magnam repellendus nulla alias magni laudantium sunt, architecto cum error aut, voluptatum quaerat provident harum 
-                                        doloremque. Adipisci exercitationem iure dolorem maiores? Nostrum laborum in sint 
-                                        repellendus dolore soluta quibusdam atque?</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
+        <article class="main-article">
+            <div class="card border-primary mb-3" style="margin-top: 10%;">
+                <div class="card-header">
+                    <h2>About Me</h2>
+                </div>
+                <div class="card-body">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./Assets/Images/me_yall.JPG" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">My Name is Jose...</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                                    saepe
+                                    nemo optio laborum animi beatae dicta asperiores aliquam libero tempora. Quam
+                                    recusandae
+                                    unde rem
+                                    expedita animi vel nam ipsa? Facere consequatur veniam ratione molestiae,
+                                    eaque voluptas molestias praesentium sapiente nemo.</p>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
+                                    quos
+                                    magnam repellendus nulla alias magni laudantium sunt, architecto cum error aut,
+                                    voluptatum quaerat provident harum
+                                    doloremque. Adipisci exercitationem iure dolorem maiores? Nostrum laborum in sint
+                                    repellendus dolore soluta quibusdam atque?</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
                     </div>
                 </div>
+        </article>
+
     </div>
 
+    <!-- Main Footer-->
+    <footer class="myfooter">
 
+        <!-- Add font awesome icons -->
+        <a href="https://github.com/josesanchezcapo" target="_blank" class="fa fa-github"></a>
+        <a href="https://twitter.com/josesanchezcapo" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/josesanchezcapo/" target="_blank" class="fa fa-linkedin"></a>
+
+    </footer>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
