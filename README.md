@@ -1,4 +1,28 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio - Assigment By Jose Sanchez-Capo
+
+Description:
+
+The repository contains the first assignment.
+ 
+The files included are source code, assets (css, images, and screencaps).
+
+The assignment's purpose was to create a 3 pages porfolio using Bootstrap adding to the  acquired knowledge and skills on HTML, CSS, semantic elements, Github, and more. 
+
+Repository name: bc02-bootstrap
+
+The live page can be accessed via the following  url: 
+https://josesanchezcapo.github.io/bc02-bootstrap/
+
+
+Screecaps:
+
+In Safari:
+![safari page](Assets/Images/MyPorfolioSite.png)
+
+
+
+## My Task
+
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
