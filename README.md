@@ -11,7 +11,7 @@ The assignment's purpose was to create a 3 pages porfolio using Bootstrap adding
 Repository name: bc02-bootstrap
 
 The live page can be accessed via the following  url: 
-https://josesanchezcapo.github.io/bc02-bootstrap/
+https://josesanchezcapo.github.io/bootcamp-porfolio/
 
 
 Screecaps:
